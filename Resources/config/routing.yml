@@ -1,0 +1,3 @@
+chipsetix_homepage:
+    path:     /
+    defaults: { _controller: ChipsetixBundle:Default:index }
