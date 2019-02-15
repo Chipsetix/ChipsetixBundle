@@ -1,1 +1,34 @@
-Hello World!
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<div class="jumbotron text-center">
+    <h1>Мои таблицы базы данных</h1>
+    <p>Просмотрим каждую из них</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <h3>User</h3>
+            <p>Lorem ipsum dolor..</p>
+            <p>Ut enim ad..</p>
+        </div>
+        <div class="col-sm-3">
+            <h3>Seller</h3>
+            <p>Lorem ipsum dolor..</p>
+            <p>Ut enim ad..</p>
+        </div>
+        <div class="col-sm-3">
+            <h3>Product</h3>
+            <p>Lorem ipsum dolor..</p>
+            <p>Ut enim ad..</p>
+        </div>
+        <div class="col-sm-3">
+            <h3>Category</h3>
+            <p>Lorem ipsum dolor..</p>
+            <p>Ut enim ad..</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
